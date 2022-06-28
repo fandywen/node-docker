@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve . -p 3001",
+    "start:server": "node server.js",
+    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "serve": "^13.0.2"
+  }
+}
